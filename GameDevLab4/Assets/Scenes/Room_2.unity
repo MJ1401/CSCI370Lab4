@@ -1114,6 +1114,8 @@ MonoBehaviour:
   horizontal: 0
   vertical: 0
   runSpeed: 5
+  left: 0
+  right: 1
 --- !u!60 &49716415
 PolygonCollider2D:
   m_ObjectHideFlags: 0
