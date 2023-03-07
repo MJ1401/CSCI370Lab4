@@ -77,11 +77,11 @@ public class GameManager : MonoBehaviour
     IEnumerator LoadYourAsyncScene(string scene)
     {
         print("lowering curtain");
-        StartCoroutine(ColorLerpFunction(true, 1));
-        while (raiseLower)
-        {
-            yield return null;
-        }
+        // StartCoroutine(ColorLerpFunction(true, 1));
+        // while (raiseLower)
+        // {
+        //     yield return null;
+        // }
         print("curtain down");
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
 
