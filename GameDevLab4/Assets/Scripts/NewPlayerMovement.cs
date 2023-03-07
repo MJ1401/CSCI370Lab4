@@ -6,6 +6,7 @@ public class NewPlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D body;
+    private Transform person;
     public float horizontal;
     public float vertical;
 
@@ -33,5 +34,10 @@ public class NewPlayerMovement : MonoBehaviour
         }
 
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
+        if (horizontal > 0) {
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+        } else if (horizontal < 0) {
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 }
