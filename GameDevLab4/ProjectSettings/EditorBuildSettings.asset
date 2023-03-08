@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ZK_Scene.unity
     guid: 184cc09d5cada6643b911da9f01ad196
+  - enabled: 1
+    path: Assets/Scenes/Room_2.unity
+    guid: a229792c3556ad946a8c74770ff13c88
+  - enabled: 1
+    path: Assets/Scenes/Room_3.unity
+    guid: c465ef1f853d23646935b8fcf9c1c13c
+  - enabled: 1
+    path: Assets/Scenes/Room_4.unity
+    guid: 9dd6af9d2814d474792a553a509c698f
+  - enabled: 1
+    path: Assets/Scenes/Room_5.unity
+    guid: 8ba318cb15b14244785b5a261b3e163a
   m_configObjects: {}
