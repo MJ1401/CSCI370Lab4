@@ -107,7 +107,7 @@ public class GameManager : MonoBehaviour
     }
     
     public void StartGame() {
-        StartCoroutine(LoadYourAsyncScene("Intro"));
+        StartCoroutine(LoadYourAsyncScene("ZK_Scene"));
         
     }
     // Start is called before the first frame update
