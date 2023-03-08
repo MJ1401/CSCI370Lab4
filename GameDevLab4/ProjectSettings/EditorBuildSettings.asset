@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Continue_Infinite.unity
     guid: 03696cccaaeec01468b8e2b42c27dd7a
   - enabled: 1
-    path: Assets/Scenes/Room_2.unity
+    path: Assets/Scenes/Maze_Room.unity
     guid: a3999b0494e493847885d4df092d0768
   - enabled: 1
     path: Assets/Scenes/ZK_Scene.unity
