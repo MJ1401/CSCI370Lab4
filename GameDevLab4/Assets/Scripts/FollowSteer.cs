@@ -27,13 +27,13 @@ public class FollowSteer : MonoBehaviour {
 
 	}
 
-    // public void OnCollisionEnter2D(Collider2D collision) {
-    //     print("Collided");
-    //     if (collider2D.gameObject.CompareTag("Player")) {
-    //         print("We did collide");
-    //         GameManager.Instance.ChangeScene("ZK_Scene");
-    //     }
-    // }
+    public void OnCollisionEnter2D(Collision2D col) {
+        print("Collided");
+        if (col.gameObject.CompareTag("Player")) {
+            print("We did collide");
+            GameManager.Instance.ChangeScene("ZK_Scene");
+        }
+    }
 
 	// public void IncreaseSpeed() {
 	// 	speed *= 1.2f;
