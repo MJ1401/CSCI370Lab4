@@ -1060,7 +1060,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Game Designed by Gabby Naples, Zoie Keys, and Mark Johnson
 
-'
+
+    Tilemap
+    and Sprites by Kenney Tiny Dungeon
+
+    Audio by OpenGameArt.Org
+
+    Fonts by
+    Google Fonts (Kanit)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ee2bed003279a004787555ed3009b935, type: 2}
   m_sharedMaterial: {fileID: 7525936374348736504, guid: ee2bed003279a004787555ed3009b935, type: 2}
@@ -1723,7 +1730,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_SizeDelta: {x: 4000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881394354
 MonoBehaviour:
