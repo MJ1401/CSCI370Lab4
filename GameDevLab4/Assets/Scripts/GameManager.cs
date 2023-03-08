@@ -23,6 +23,17 @@ public class GameManager : MonoBehaviour
     public GameObject mainScreen;
     public GameObject menuButton;
 
+    // // Life Track
+    // public static int lives = 3;
+
+    // public void LossLife() {
+    //     lives -= 1;
+    //     if (lives == 0) {
+    //         lives = 3;
+    //         ChangeScene("TitleScene");
+    //     }
+    // }
+
     public void DialogShow(string text) {
         dialogBox.SetActive(true);
         StopAllCoroutines();
@@ -119,6 +130,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
 }
