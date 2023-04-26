@@ -10,6 +10,8 @@ public class NewPlayerMovement : MonoBehaviour
     public float horizontal;
     public float vertical;
 
+    // public ParticleSystem dust;
+
     private float moveLimiter = 0.7f;
 
     public float runSpeed = 5f;
@@ -39,10 +41,16 @@ public class NewPlayerMovement : MonoBehaviour
         body.velocity = new Vector2(horizontal * runSpeed, vertical * runSpeed);
         if (horizontal > 0) {
             gameObject.transform.localScale = new Vector3(1, 1, 1);
+            // if (left) {
+            //     CreateDust();
+            // }
             left = false;
             right = true;
         } else if (horizontal < 0) {
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
+            // if (right) {
+            //     CreateDust();
+            // }
             left = true;
             right = false;
         }
@@ -51,4 +59,8 @@ public class NewPlayerMovement : MonoBehaviour
     public bool GetLook() {
         return left;
     }
+
+    // void CreateDust() {
+    //     dust.Play();
+    // }
 }
